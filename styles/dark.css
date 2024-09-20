@@ -23,7 +23,7 @@
   --page-bg-image: url("../images/cover-image-dark.png");
 }
 
-@media (prefers-color-scheme: theme_dark) {
+/* @media (prefers-color-scheme: theme_dark) {
   :root {
     --text-color: #f1b2ce;
     --text-title-color: #ff0070;
@@ -37,4 +37,4 @@
     --page-font-family: "IBM Plex mono", monospace;
     --page-bg-image: url("../images/cover-image-dark.png");
   }
-}
+} */

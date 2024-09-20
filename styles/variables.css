@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 
-:root {
+/* :root {
   --text-color: #353430;
   --text-title-color: #353430;
   --title-color: #ffc2e6;
@@ -16,4 +16,18 @@
 
   --page-font-family: "IBM Plex mono", monospace;
   --page-bg-image: url("../images/cover-image-light.png");
+} */
+
+:root {
+  --text-color: #f1b2ce;
+  --text-title-color: #ff0070;
+  --title-color: #db00ff;
+  --title-shadow: #ff0070;
+  --section-bg-titles: #ff0070;
+  --link-shadow: #ff0070;
+  --page-bg-color: #000028;
+  --rec-decor-color: #ff0070;
+
+  --page-font-family: "IBM Plex mono", monospace;
+  --page-bg-image: url("../images/cover-image-dark.png");
 }
