@@ -27,6 +27,7 @@
   --link-shadow: #ff0070;
   --page-bg-color: #000028;
   --rec-decor-color: #ff0070;
+  --decor-color: #ff0070;
 
   --page-font-family: "IBM Plex mono", monospace;
   --page-bg-image: url("../images/cover-image-dark.png");

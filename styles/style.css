@@ -32,10 +32,16 @@
 
 .title-why {
   inline-size: 100%;
+  color: var(--text-title-color);
 }
 
 .title-what {
   inline-size: 30%;
+  color: var(--text-title-color);
+}
+
+.title-how {
+  color: var(--text-title-color);
 }
 
 .title-decor {
@@ -43,7 +49,7 @@
 }
 
 .page-title {
-  font-size: 157px;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--title-shadow);
   margin-block-start: 32%;
@@ -72,6 +78,7 @@
 .header__theme-menu {
   font-size: 18px;
   font-weight: 400;
+  color: var(--decor-color);
 }
 
 .header__theme-menu-list {
@@ -99,7 +106,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid #ff007066;
+  border: 1px solid var(--decor-color);
 }
 
 .header__theme-menu-button:focus {
@@ -130,6 +137,7 @@
   inset-inline-end: 30px;
   inset-block-start: 22px;
   line-height: 25px;
+  text-transform: uppercase;
 }
 
 /* .rec-decor::before {
@@ -170,7 +178,7 @@
 }
 
 .footer-title {
-  font-size: 157px;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--title-shadow);
   padding-block-start: 2%;
@@ -235,6 +243,7 @@
 
 .link {
   text-decoration: none;
+  text-shadow: 2px 2px 0 var(--link-shadow);
 }
 
 .link:hover {
@@ -267,7 +276,7 @@
   }
 
   .page-title {
-    font-size: 120px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-block-start: 28%;
   }
 
@@ -291,8 +300,8 @@
   }
 
   .footer-title {
-    font-size: 120px;
-    margin-block-start: 1%;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-block-start: 22%;
   }
 }
 
@@ -315,7 +324,7 @@
   }
 
   .page-title {
-    font-size: 116px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 95.7px;
     margin-block-start: 19%;
     margin-inline-start: 3%;
@@ -326,7 +335,7 @@
     margin-block-start: 14%;
     margin-block-end: 16.9%;
     justify-self: start;
-    margin-inline-start: 2%;
+    margin-inline-start: 3%;
   }
 
   .decorated-zone::after {
@@ -399,6 +408,12 @@
   }
 
   .footer-title {
-    font-size: 116px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    margin-block-end: 25%;
+  }
+
+  .rec-decor {
+    inset-inline-end: 20px;
+    inset-block-start: 10px;
   }
 }
