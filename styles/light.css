@@ -10,6 +10,7 @@
   --rec-decor-color: #fff1f7;
   --card-title-color: #000028;
   --button-hover-color: #32312d66;
+  --hader-text-color: #353430;
 
   --page-font-family: "IBM Plex mono", monospace;
   --page-bg-image: url("../images/cover-image-light.png");
@@ -28,6 +29,7 @@
     --rec-decor-color: #fff1f7;
     --card-title-color: #000028;
     --button-hover-color: #32312d66;
+    --hader-text-color: #353430;
 
     --page-font-family: "IBM Plex mono", monospace;
     --page-bg-image: url("../images/cover-image-light.png");

@@ -64,7 +64,7 @@
 }
 
 .header-text {
-  color: var(--text-color);
+  color: var(--hader-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -249,8 +249,7 @@
 }
 
 .link:hover {
-  /* text-decoration: underline; */
-  border-bottom: 1px solid var(--decor-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 .link:focus {
@@ -412,7 +411,7 @@
 
   .footer-title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    margin-block-end: 25%;
+    margin-block-end: 4%;
   }
 
   .rec-decor {
